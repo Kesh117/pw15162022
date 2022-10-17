@@ -27,7 +27,11 @@ header nav ul li{
     margin-top: 25px;
     margin-left: 25px;
 }
-
+#BgOffer{
+    position: relative;
+    top: -406px;
+    left: -35px;
+}
 #paint{
     float: right;
 }
@@ -50,11 +54,57 @@ header nav ul li{
     width: 30%;
     margin-left: 50px;
 }
+#Secc01Art02 ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#Secc01Art02 ul li:before{
+    content:"• ";
+    color: #FF0099;
+
+}
+#Secc01Art01{
+    margin-top: 15px;
+}
+#Secc02Art01 article{
+    text-align: right;
+    margin-right: 160px;
+
+}
+#Secc03Art01 article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+#Secc03Art01 article img{
+    vertical-align: middle;
+}
+#Secc03Art04 {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+#Secc03Art04 input {
+    border: 1px solid red;
+    border-radius: 5px;
+    color: blue;
+    padding: 5px;
+    
+}
+
+.ColorAzul{
+    color: #4267b3;
+}
 .ColorRosa{
     color: #FF0099;
 }
+.ColorVerde{
+    color: #8BC500;
+}
 .LetraGrande{
     font-size: 3.5em;
+}
+.LetraMediana{
+    font-size: 2em;
 }
 .Nito{
     font-weight: bold;
