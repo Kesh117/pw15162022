@@ -1,0 +1,46 @@
+#body{
+    font-size: 1em;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header{
+    text-align: center;
+    background: #225d92;
+}
+#Logo{
+    width: 300px;
+}
+header nav{
+    background: #efefef;
+    width: 100%;
+    height: 70px;
+}
+header nav img{
+    float :right;
+    width: 100px;
+    height: 50px;
+
+}
+#Notif{
+    width: 100px;
+}
+
+
+/* Seccion 1 CSS */
+#Contenedor{
+    display: inline-block;
+}
+#Seccion1{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#Seccion2{
+    width: 65%;
+    float: right;
+}
+.Izq{
+    width: 100%;
+    
+}
