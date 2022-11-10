@@ -3,21 +3,28 @@ const App = {
         return{
             mensaje: 'Hola Vue. Js',
             muestra:false,
-            nombre:""
+            nombre:"",
+            personas:[],
+            cantidad:1
         }
     },
     methods:{
-        cambiarMuestra: async function(){
+        cambiarMuestra: function(){
             this.muestra= !this.muestra
         },
         randomuser: async function(){
             let n=""
-            await  await axios.get('https://randomuser.me/api/')
+            let p= []
+            // await axios.get('https://randomuser.me/api/?results='+this.cantidad) SENTIDO COMUN
+            await axios.get('https://randomuser.me/api/?results='+this.cantidad)
             .then(function(response){
                 console.log(response.data.results[0].name.last)
                 n = response.data.results[0].name.last
+                p= response.data.results
+                
             });
             this.nombre=n
+            this.personas=p
         }
     }
 };
